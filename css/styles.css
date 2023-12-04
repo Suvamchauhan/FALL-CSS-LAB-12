@@ -1,0 +1,36 @@
+/* CSS styling for the entire page body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the SVG container */
+svg {
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Styling for the bar element */
+#bar {
+    transition: width 0.5s ease-in-out;
+    fill: #e18141;
+}
+/* Styling for the bar element when active (clicked) */
+#bar:active {
+    fill: #e18141;
+}
+/* Styling for the percentage text */
+#percentage {
+    font-size: 18px;
+    font-weight: bold;
+    fill: #333;
+    user-select: none;
+}
